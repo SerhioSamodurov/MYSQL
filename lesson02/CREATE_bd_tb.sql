@@ -5,9 +5,9 @@ USE example;
 -- DROP TABLE IF EXISTS users
 CREATE TABLE IF NOT EXISTS users (
   id SERIAL PRIMARY KEY,
-  name VARCHAR(255) COMMENT 'Имя ользователя',
+  name VARCHAR(255) ,
   created_at DATETIME DEFAULT CURRENT_TIMESTAMP
- ) COMMENT = 'Пользователи';
+ ) ;
  
 
  INSERT INTO users VALUES
