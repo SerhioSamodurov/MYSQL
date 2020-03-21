@@ -1,0 +1,5 @@
+1 - mysqldump example > dumpex.sql
+2 - mysql
+3 - CREATE DATABASE IF NOT EXISTS sample;
+4 - CTRL+D
+5 - mysql sample < dumpex.sql
